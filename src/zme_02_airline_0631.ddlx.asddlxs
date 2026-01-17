@@ -1,0 +1,12 @@
+@Metadata.layer: #CORE
+annotate view ZI_19_0631 with
+  parameters
+    @EndUserText: {
+         label: 'Airline Code',
+         quickInfo: 'Airline' }
+    p_Airline
+{
+  @EndUserText.label: 'Airline Code'
+  Carrid;
+
+}

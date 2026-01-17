@@ -1,0 +1,7 @@
+@EndUserText.label: 'Access Control - Inhibiting'
+@MappingRole: true
+define role ZAC_04_AIL_INHIBITING_0631 {
+    grant select on ZI_17_AIRLINE_0631 
+        where carrid is null and carrid is not null;
+                        
+}

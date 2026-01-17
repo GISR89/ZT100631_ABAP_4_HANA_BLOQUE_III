@@ -1,0 +1,7 @@
+@EndUserText.label: 'Access Control - Inheritance'
+@MappingRole: true
+define role ZAC_02_AIRLINE_0631 {
+    grant select on ZI_16_AIRLINE_0631
+                inherit ZAC_01_AIRLINE_0631 or currcode = 'USD' ;
+                        
+}
